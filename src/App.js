@@ -1,26 +1,49 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import SearchBox from "./components/SearchBox";
+import Scroll from "./components/Scroll";
+import CardList from "./components/CardList";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      friends: [],
+      searchfield: ""
+    };
+  }
+
+  componentDidMount() {
+    fetch("https://jsonplaceholder.typicode.com/users")
+      .then(response => response.json())
+      .then(users => this.setState({ friends: users }));
+  }
+
+  onSearchChange = event => {
+    this.setState({ searchfield: event.target.value });
+  };
+
+  render() {
+    const filteredFriends = this.state.friends.filter(
+      friend =>
+        friend.username
+          .toLowerCase()
+          .includes(this.state.searchfield.toLowerCase()) ||
+        friend.name.toLowerCase().includes(this.state.searchfield.toLowerCase())
+    );
+
+    if (this.state.friends.length === 0) {
+      return <h1 className="tc calisto f2 light-blue">Loading</h1>;
+    }
+    return (
+      <div className="calisto tc">
+        <h1 className="f1 underline ttu light-blue">My Cat Friends</h1>
+        <SearchBox searchChange={this.onSearchChange} />
+        <Scroll>
+          <CardList friends={filteredFriends} />
+        </Scroll>
+      </div>
+    );
+  }
 }
 
 export default App;
