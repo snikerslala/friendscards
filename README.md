@@ -1,7 +1,6 @@
-<h1>My Cat Friends application</h1>
-<h2> Friendscards App<h2>
+<h1>Friendscards (My Cat Friends) App</h1>
 
-<p>React based application where the user can search for friends by name.
+<p>React based application where the user can search for friends by name.</p>
 
 <strong>Tech Stack + Modules</strong>
 
