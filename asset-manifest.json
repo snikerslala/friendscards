@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/friendscards/static/css/main.ad33cc54.chunk.css",
+    "main.js": "/friendscards/static/js/main.bb5a421d.chunk.js",
+    "main.js.map": "/friendscards/static/js/main.bb5a421d.chunk.js.map",
+    "runtime~main.js": "/friendscards/static/js/runtime~main.51c8286e.js",
+    "runtime~main.js.map": "/friendscards/static/js/runtime~main.51c8286e.js.map",
+    "static/css/2.31dafeb2.chunk.css": "/friendscards/static/css/2.31dafeb2.chunk.css",
+    "static/js/2.ed4ccca4.chunk.js": "/friendscards/static/js/2.ed4ccca4.chunk.js",
+    "static/js/2.ed4ccca4.chunk.js.map": "/friendscards/static/js/2.ed4ccca4.chunk.js.map",
+    "index.html": "/friendscards/index.html",
+    "precache-manifest.82ab226b25d808e762f6d0960d4ad4e9.js": "/friendscards/precache-manifest.82ab226b25d808e762f6d0960d4ad4e9.js",
+    "service-worker.js": "/friendscards/service-worker.js",
+    "static/css/2.31dafeb2.chunk.css.map": "/friendscards/static/css/2.31dafeb2.chunk.css.map",
+    "static/css/main.ad33cc54.chunk.css.map": "/friendscards/static/css/main.ad33cc54.chunk.css.map"
+  }
+}
