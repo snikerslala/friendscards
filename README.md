@@ -5,8 +5,8 @@
 <strong>Tech Stack + Modules</strong>
 
 <ul>
-  <li><a href="https://reactjs.org/">React</a></li>
+  <li><a href="https://reactjs.org/">React (with Hooks)</a></li>
   <li><a href="http://tachyons.io/docs/">Tachyons</a></li>
-  <li><a href="https://robohash.org/">Robo Hash API</a></li>
   <li><a href="https://jsonplaceholder.typicode.com/">JSONPlaceHolder API</a></li>
+  <li><a href="https://robohash.org/">Robohash Image Generator API</a></li>
 </ul>
