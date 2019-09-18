@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ea49dd0aec6b14e4e4164150e90c8457",
+    "revision": "c47dd12db30ba33d20736bd9dee3707c",
     "url": "/friendscards/index.html"
   },
   {
-    "revision": "e200a0e0c2280c9fdfe9",
+    "revision": "33a46a6613240d39fb9c",
     "url": "/friendscards/static/css/2.31dafeb2.chunk.css"
   },
   {
-    "revision": "fd3f9bb45578d4ed9fc1",
+    "revision": "c5507c9c52c56fac9986",
     "url": "/friendscards/static/css/main.ad33cc54.chunk.css"
   },
   {
-    "revision": "e200a0e0c2280c9fdfe9",
-    "url": "/friendscards/static/js/2.ed4ccca4.chunk.js"
+    "revision": "33a46a6613240d39fb9c",
+    "url": "/friendscards/static/js/2.cdfa9187.chunk.js"
   },
   {
-    "revision": "fd3f9bb45578d4ed9fc1",
-    "url": "/friendscards/static/js/main.bb5a421d.chunk.js"
+    "revision": "c5507c9c52c56fac9986",
+    "url": "/friendscards/static/js/main.c8de6c69.chunk.js"
   },
   {
     "revision": "a8320c93e441803a89fa",
