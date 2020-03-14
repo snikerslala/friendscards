@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/friendscards/precache-manifest.582e9fd0a2db3fdac628d306d3d3e7af.js"
+  "/friendscards/precache-manifest.57c1f50cafc58b09a91212df3ca298aa.js"
 );
 
 self.addEventListener('message', (event) => {
